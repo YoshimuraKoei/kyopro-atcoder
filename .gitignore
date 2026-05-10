@@ -1,9 +1,19 @@
 # Python Template
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
 .DS_Store
 .env
 .venv/
 
 # nvim
 nvim.log
+
+# Local helper scripts
+scripts/
